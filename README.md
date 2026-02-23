@@ -128,6 +128,6 @@ What both approaches agree on is the dominant role of the Western Province, the 
 
 [7] World Bank. *Sri Lanka Development Update 2023: Aiming for the Sky*. World Bank Group, Washington D.C., 2023. <https://www.worldbank.org/en/country/srilanka/publication/sri-lanka-development-update>
 
-## Code
+## Appendix: Code and Data
 
 Analysis and maps by [nuuuwan](https://github.com/nuuuwan/lk_urban). Population data from the 2012 Census of Population and Housing, Sri Lanka.
