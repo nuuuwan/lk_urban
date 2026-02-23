@@ -121,17 +121,32 @@ class AbstractUrbanMap(ABC):
     def _draw_district_choropleth(
         self, ax, districts: list[Ent], ratios: dict[str, float]
     ):
-        cmap = cm.Reds
+        cmap = mcolors.LinearSegmentedColormap.from_list(
+            "green_orange_red",
+            ["#008800", "#ff8800", "#ff0000"],
+        )
         norm = mcolors.Normalize(
             vmin=0, vmax=max(ratios.values()) if ratios else 1
         )
         for district in districts:
             p = ratios.get(district.id, 0)
-            district.geo().plot(
+            geo = district.geo()
+            geo.plot(
                 ax=ax,
                 color=cmap(norm(p)),
+                alpha=0.5,
                 edgecolor="lightgray",
                 linewidth=0.5,
+            )
+            centroid = geo.geometry.centroid.iloc[0]
+            ax.text(
+                centroid.x,
+                centroid.y,
+                f"{p:.0%}",
+                ha="center",
+                va="center",
+                fontsize=5,
+                color="black",
             )
         sm = cm.ScalarMappable(cmap=cmap, norm=norm)
         sm.set_array([])
