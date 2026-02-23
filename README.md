@@ -42,7 +42,7 @@ We chose this threshold because it sits comfortably within the range used in com
 
 The density map reveals a striking picture. Urban Sri Lanka, by the density criterion, is highly concentrated in the Western Province; it forms a near-continuous band of high-density settlement stretching from Colombo south to Kalutara and north to Negombo, and inland toward Kotte and Kaduwela. Secondary concentrations appear around Kandy in the Central Province, Galle and Matara on the southern coast, and Jaffna in the Northern Province.
 
-A notable outlier is the Eastern Province, where Batticaloa town and its surrounding GNDs register as urban despite the district's otherwise rural character. Batticaloa's coastal urban core, historically a commercial and administrative centre, stands out as a pocket of high density in an otherwise sparsely settled region, a pattern also visible to a lesser extent in Trincomalee.
+A notable outlier is the Eastern Province, where Batticaloa town and its surrounding GNDs register as urban despite the district's otherwise rural character. Batticaloa's coastal urban core, historically a commercial and administrative centre, stands out as a pocket of high density in an otherwise sparsely settled region, a pattern also visible to a lesser extent in Trincomalee and Ampara.
 
 The map also exposes how thinly settled most of the island's interior and north-central regions are. The vast dry-zone districts of Anuradhapura, Polonnaruwa, and Monaragala, collectively covering over a third of the island's land area, contribute almost nothing to urban population by this measure. Most strikingly, the war-affected districts of Kilinochchi and Mullaitivu in the Northern Province register virtually no urban GNDs at all under this definition, a legacy of displacement and underdevelopment that persisted well beyond the end of the civil conflict.
 
@@ -110,7 +110,7 @@ Neither method is "correct." Together, they bracket the true extent of urbanisat
 
 Sri Lanka's urbanisation story is more complex than any single number can capture. By population density, the country appears to have a highly concentrated urban core centred on Colombo. By administrative classification, urban settlement is more evenly distributed across the island's towns and secondary cities.
 
-What both approaches agree on is the dominant role of the Western Province, the secondary importance of Kandy as a central highland hub, and the relative rurality of the north-central and eastern regions. As Sri Lanka continues to urbanise, a process that slowed but did not reverse during the recent economic crisis [7], revisiting and refining these definitions will matter more, not less, for infrastructure planning, climate adaptation, and equitable development.
+What both approaches agree on is the dominant role of the Western Province, and the secondary importance of Kandy as a central highland hub. As Sri Lanka continues to urbanise, a process that slowed but did not reverse during the recent economic crisis [7], revisiting and refining these definitions will matter more, not less, for infrastructure planning, climate adaptation, and equitable development.
 
 ## Appendix: References
 
