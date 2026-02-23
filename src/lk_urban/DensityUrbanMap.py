@@ -26,8 +26,7 @@ class DensityUrbanMap(AbstractUrbanMap):
 
     def get_title_label(self) -> str:
         return (
-            f"Areas with population density"
-            f" > {self.density_threshold:,}/km²"
+            f"Urban = Population Density" f" > {self.density_threshold:,}/km²"
         )
 
     def get_image_path(self) -> str:

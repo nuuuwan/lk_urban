@@ -19,7 +19,10 @@ class LocalAuthorityUrbanMap(AbstractUrbanMap):
         return "red" if self._lg_type(ent) == "MC" else "orange"
 
     def get_title_label(self) -> str:
-        return "Municipal Councils and Urban Councils"
+        return "Urban = Municipal Councils or Urban Councils"
+
+    def get_district_id(self, ent: Ent) -> str:
+        return ent.district_id
 
     def get_image_path(self) -> str:
         return os.path.join("images", f"{self._class_label()}.png")
